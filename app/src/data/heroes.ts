@@ -39,6 +39,7 @@ export const heroes: Character[] = [
   { id: 'mighty-thor',         name: 'Mighty Thor',        role: 'hero',      expansionId: 'multiverse-core' },
   { id: 'ironheart',           name: 'Ironheart',          role: 'hero',      expansionId: 'multiverse-core' },
   { id: 'cosmic-ghost-rider',  name: 'Cosmic Ghost Rider', role: 'anti-hero', expansionId: 'multiverse-core' },
+  { id: 'spider-man-2099-og',     name: 'Spider-Man 2099 (Original Suit)', role: 'hero', expansionId: 'multiverse-core' },
 
   // ── Enter the Spider-Verse ───────────────────────────────────────────────
   { id: 'spider-man',          name: 'Spider-Man',         role: 'hero',      expansionId: 'spider-verse' },
