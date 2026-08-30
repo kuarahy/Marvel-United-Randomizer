@@ -59,6 +59,7 @@ A 4-act Avengers campaign starting at street level and escalating to cosmic thre
 - [x] Add name and links social media, donation boxes, etc (no ads! :D)
 - [x] Tabs for Locatios added
 - [x] Filters cache
+- [ ] Filter for "hero groups", e.g. Spider-Man, X-Men, Avengers, etc (would collect heroes and villains across the board to facilitate focused campaigns)
 - [ ] Campaign Randomizer with [comic-accuracy](https://github.com/kuarahy/Marvel-United-Randomizer/tree/main/tools/comic-accuracy)
  - Toggle option for hero relation using comic-accuracy. OFF randomizes all sets, ON turns relation on, with multiple levels of input based on historical comic book crossover values
  - MCU movie order campaigns
