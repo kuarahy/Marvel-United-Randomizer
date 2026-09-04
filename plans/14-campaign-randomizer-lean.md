@@ -67,7 +67,12 @@ app/src/hooks/useCampaignRandomizer.ts         # composes RandomizerService with
 app/src/components/campaigns/CampaignRandomizerPanel.tsx  # + minimal subcomponents, RandomizerPanel style
 ```
 
-Six items total vs. plan 13's five new classes plus data-bridge script plus test setup.
+Not fewer files than 13 overall (13 also adds types, data files, a hook, components, and
+a full test suite once counted honestly) — the point is fewer *layers to trace per
+behavior*. Relation filtering is one function in the file next to its sibling
+(`filterByOwned`) instead of 3 files plus an `IRepository<T>` bent to fit a pair-keyed
+lookup it wasn't designed for (the composite-key workaround `13` admits to). Campaign
+order is one array-index lookup instead of a repository class plus a service class.
 
 ## Deliberate corners cut (ponytail markers, upgrade path noted)
 
